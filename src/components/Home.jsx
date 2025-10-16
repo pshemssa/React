@@ -1,4 +1,5 @@
 // import {Doc2} from '../image/Doc2.jpg'
+import { Link } from 'react-router-dom';
 function Hospital(){
     return (
         <>
@@ -17,7 +18,8 @@ function Hospital(){
         <p>We are here to help you on your healthcare journey.</p>
         </div>
         </aside> 
-        <a href="/contact" className="bg-blue-400 p-5 rounded-full mx-120 mt-2 text-white">Book appointment</a>
+        <Link 
+        to="/contact" className="bg-blue-400 p-5 rounded-full mx-120 mt-2 text-white">Book appointment</Link>
         </>
     )
 }
